@@ -1,0 +1,40 @@
+/* Breadcrumbs */
+section ol {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: left;
+    flex-grow: 1;
+}
+
+section ol li {
+    display: inline-block;
+    background-color: orange;
+    padding: 0.75rem 1rem;
+    flex-grow: 1;
+    margin-right: -30px;
+    border-radius: 5px;
+}
+
+/* Productdetail */
+.productdetail {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Afbeelding product */
+.img-productdetail {
+    list-style: none;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 1rem 0 #b79b87;
+    width: 450px;
+    height: 300px;
+}
+
+/* Beschrijving Product */
+.productdetail p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin: 8px 0;
+}

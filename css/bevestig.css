@@ -1,0 +1,38 @@
+main h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+main section {
+    border-radius: 20px;
+    background-color: #fc9c7a;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 40rem;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    font-weight: normal;
+    text-align: left;
+    padding-bottom: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+main section p:hover {
+    background-color: #f1dada;
+    border-radius: 7px;
+    padding: 5px;
+}

@@ -1,0 +1,95 @@
+/*CSS HEX */
+:root {
+    --background: #efc97e;
+    --menu: #312e2e;
+    --orange: #ffa226;
+}
+
+/* Deze CSS bereikt alle pagina's */
+.text-center {
+    text-align: center;
+}
+
+/*Titels verbergen*/
+.hiddenTitle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    left: -10000px;
+}
+
+/* Logo */
+.logo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+body {
+    background-color: var(--background);
+    font-family: Verdana, sans-serif;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding-left: 0;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: var(--menu);
+    border-radius: 5px;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+nav ul ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Toont het submenu wanneer je erover gaat */
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Footer */
+footer {
+    display: table;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+/* © 2023 De Zoete Bakkershoek */
+.box-copyright {
+    max-width: 1200px;
+    margin: auto 100px;
+    padding: 0.2rem;
+    color: #7a7a7a;
+}

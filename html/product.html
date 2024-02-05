@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Producten pagina</title>
+    <link rel="stylesheet" href="../css/site.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <script src="../scripts/filter.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1 class="hiddenTitle">Onze producten</h1>
+    <a href="../index.html"><img class="logo" src="../media/logo.png" alt="Bakkers logo"></a>
+    <nav>
+        <h2 class="hiddenTitle">Menu</h2>
+        <ul>
+            <li><a href="../index.html">Home</a>
+                <ul>
+                    <li><a href="https://www.instagram.com/bakker.klaas.gent/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/bakkerijvanderbijl">Facebook</a></li>
+                </ul>
+            </li>
+            <li><a href="">Producten</a></li>
+            <li><a href="bestellen.html">Online Bestellen</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2 class="filter-label">Filter</h2>
+        <form id="filterForm">
+            <label>
+                <input type="radio" name="productType" value="all" checked> Alle producten
+            </label>
+            <label>
+                <input type="radio" name="productType" value="kleineBroden"> Kleine Broden
+            </label>
+            <label>
+                <input type="radio" name="productType" value="groteBroden"> Grote Broden
+            </label>
+            <label>
+                <input type="radio" name="productType" value="koffiekoeken"> Koffiekoeken
+            </label>
+        </form>
+    </section>
+
+    <article id="products-container" class="product-items">
+        <h2 class="hiddenTitle">Broden</h2>
+        <section class="product kleineBroden">
+            <a href="klwitBrood.html">
+                <img class="img-product" src="../media/kl-lang-wit-brood.jpg" alt="Foto van klein wit brood">
+                <h3 class="text-center">Klein wit brood</h3>
+            </a>
+            <p>€2,50</p>
+            <p>Ons heerlijk klein versgebakken wit brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product groteBroden">
+            <img class="img-product" src="../media/gr-lang-wit-brood.jpg" alt="Foto van groot wit brood">
+            <h3 class="text-center">Groot wit brood</h3>
+            <p>€3,00</p>
+            <p>Ons heerlijk groot versgebakken wit brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product kleineBroden">
+            <img class="img-product" src="../media/kl-lang-grof.jpg" alt="Foto van klein grof brood">
+            <h3 class="text-center">Klein grof brood</h3>
+            <p class="kleineBroden sold-out aanbieding">Uitverkocht</p>
+            <p>€2,50</p>
+            <p>Ons heerlijk klein versgebakken grof brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product groteBroden">
+            <img class="img-product" src="../media/gr-lang-grof.jpg" alt="Foto van groot grof brood">
+            <h3 class="text-center">Groot grof brood</h3>
+            <p>€3,00</p>
+            <p>Ons heerlijk groot versgebakken grof brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product kleineBroden">
+            <img class="img-product" src="../media/kl-lang-volkoren.jpg" alt="Foto van klein volkoren brood">
+            <h3 class="text-center">Klein volkoren brood</h3>
+            <p>€2,70</p>
+            <p>Ons heerlijk klein versgebakken volkoren brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product groteBroden">
+            <a href="volkorenbrood.html">
+                <img class="img-product" src="../media/gr-lang-volkoren-brood.jpg" alt="Foto van groot volkoren brood">
+                <h3 class="text-center">Groot volkoren brood</h3>
+            </a>
+            <p>€3,20</p>
+            <p>Ons heerlijk groot versgebakken volkoren brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product kleineBroden">
+            <img class="img-product" src="../media/kl-wit-tijger.jpg" alt="Foto van klein tijger brood">
+            <h3 class="text-center">Klein tijger brood</h3>
+            <p class="kleineBroden best-seller aanbieding">Meest verkocht</p>
+            <p>€2,50</p>
+            <p>Ons heerlijk klein versgebakken tijger brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product groteBroden">
+            <img class="img-product" src="../media/gr-wit-tijger-brood.jpg" alt="Foto van groot tijger brood">
+            <h3 class="text-center">Groot tijger brood</h3>
+            <p>€3,00</p>
+            <p>Ons heerlijk groot versgebakken tijger brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product groteBroden">
+            <img class="img-product" src="../media/speltbrood.jpg" alt="Foto van speltbrood">
+            <h3 class="text-center">Speltbrood</h3>
+            <p>€3,20</p>
+            <p>Ons heerlijk versgebakken speltbrood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product groteBroden">
+            <img class="img-product" src="../media/gr-roggebrood.jpg" alt="Foto van Rogge brood">
+            <h3 class="text-center">Rogge</h3>
+            <p>€3,20</p>
+            <p>Ons heerlijk versgebakken rogge brood. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+    </article>
+
+    <article class="product-items">
+        <h2 class="hiddenTitle">Koffiekoeken</h2>
+        <section class="product koffiekoeken">
+            <a href="croissant.html">
+                <img class="img-product" src="../media/croissant.jpg" alt="Foto van een croissant">
+                <h3 class="text-center">Croissant</h3>
+            </a>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken croissant. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/chocoladebroodje.jpg" alt="Foto van een chocoladebroodje">
+            <h3 class="text-center">Chocoladebroodje</h3>
+            <p>€1,60</p>
+            <p>Ons heerlijk versgebakken chocoladebroodje. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/lange-rozijn.jpg" alt="Foto van een lange rozijnen koffiekoek">
+            <h3 class="text-center">Lange rozijnen</h3>
+            <p class="korting aanbieding">25% Korting</p>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken lange rozijnen koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/ingebakken-pudding.jpg"
+                 alt="Foto van een ingebakken pudding koffiekoek">
+            <h3 class="text-center">Ingebakken pudding</h3>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken ingebakken pudding koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/krieken.jpg" alt="Foto van een krieken koffiekoek">
+            <h3 class="text-center">Krieken</h3>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken krieken koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/chocolade.jpg" alt="Foto van een pudding chocolade koffiekoek">
+            <h3 class="text-center">Pudding Chocolade</h3>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken pudding chocolade koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/frangipan.jpg" alt="Foto van een frangipan koffiekoek">
+            <h3 class="text-center">Frangipan</h3>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken frangipan koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/appelen.jpg" alt="Foto van een appelen koffiekoek">
+            <h3 class="text-center">Appelen</h3>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken appelen koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/confituur.jpg" alt="Foto van een confituur koffiekoek">
+            <h3 class="text-center">Confituur</h3>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken confituur koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+        <section class="product koffiekoeken">
+            <img class="img-product" src="../media/bloemsuiker.jpg" alt="Foto van een koffiekoek bloemsuiker">
+            <h3 class="text-center">Bloemsuiker</h3>
+            <p>€1,60</p>
+            <p>Onze heerlijk versgebakken bloemsuiker koffiekoek. Gemaakt in onze eigen zoete hoek.</p>
+        </section>
+    </article>
+</main>
+
+<footer>
+    <img class="logo" src="../media/logo.png" alt="Het zoetebakkershoek logo"/>
+    <section>
+        <h2 id="contact">Contact Zoete Bakkershoek</h2>
+        <address>
+            <ul>
+                <li>Naam bedrijf: De Zoete Bakkershoek</li>
+                <li>Naam oprichter: Simon Provinciael</li>
+                <li>Telefoonnummer: <a href="tel:+32489987101">+32489384911</a>.</li>
+                <li>E-mail: <a href="mailto:info@skycontrollers.be">info@zoetebakkershoek.be</a>.</li>
+                <li>Hoofdkantoor: Nationalestraat 147, 2000 Antwerpen</li>
+                <li>Land: België</li>
+            </ul>
+        </address>
+    </section>
+    <p class="box-copyright">© 2023 De Zoete Bakkershoek</p>
+</footer>
+
+</body>
+</html>
