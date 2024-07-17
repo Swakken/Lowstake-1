@@ -33,43 +33,43 @@
 
         <div>
             <label for="voornaam">Voornaam:</label>
-            <input type="text" id="voornaam" name="voornaam" placeholder="voornaam">
+            <input type="text" id="voornaam" name="voornaam" placeholder="voornaam" required>
             <span id="nameError" class="error-message"></span>
         </div>
 
         <div>
             <label for="achternaam">Achternaam:</label>
-            <input type="text" id="achternaam" placeholder="achternaam">
+            <input type="text" id="achternaam" name="achternaam" placeholder="achternaam" required>
             <span id="lastNameError" class="error-message"></span>
         </div>
 
         <div>
             <label for="email">E-mailadres:</label>
-            <input type="email" id="email" placeholder="voorbeeld@gmail.com">
+            <input type="email" id="email" name="email" placeholder="voorbeeld@gmail.com" required>
             <span id="emailError" class="error-message"></span>
         </div>
 
         <div>
             <label for="phonenumber">Telefoonnummer:</label>
-            <input type="tel" id="phonenumber" placeholder="0425927638">
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="0425927638" required>
             <span id="phoneNumberError" class="error-message"></span>
         </div>
 
         <div>
             <label for="adres">Adres:</label>
-            <input type="text" id="adres" placeholder="Molenlei 51, 2650 Edegem">
+            <input type="text" id="adres" name="adres" placeholder="Molenlei 51, 2650 Edegem" required>
             <span id="addressError" class="error-message"></span>
         </div>
 
         <div>
             <label for="leverdatum">Leverdatum:</label>
-            <input type="date" id="leverdatum" name="leverdatum">
+            <input type="date" id="leverdatum" name="leverdatum" required>
             <span id="deliveryDateError" class="error-message"></span>
         </div>
 
         <div>
             <label for="product">Kies uw product:</label>
-            <select id="product" name="product">
+            <select id="product" name="product" required>
                 <option class="text-center" value="">--Selecteer een product--</option>
                 <optgroup label="Brooden">
                     <option value="klein-wit-brood">Klein wit</option>
@@ -107,7 +107,7 @@
 
         <div>
             <label for="betaalwijze">Betaalwijze:</label>
-            <select id="betaalwijze" name="betaalwijze">
+            <select id="betaalwijze" name="betaalwijze" required>
                 <option class="text-center" value="">--Selecteer een betaalwijze--</option>
                 <option value="bancontact">Bancontact</option>
                 <option value="payconiq">Payconiq</option>
